@@ -21,6 +21,12 @@ pipeline {
           }
         }
 
+        stage('Build') {
+          steps {
+            echo 'i want to build'
+          }
+        }
+
       }
     }
 
